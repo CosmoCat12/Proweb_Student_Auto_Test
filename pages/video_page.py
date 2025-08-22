@@ -7,7 +7,7 @@ class VideoPage:
         self.driver = driver
         self.course_button = (By.CSS_SELECTOR, ".home-card__top-content-list > div:nth-child(1) > div:nth-child(2) > p:nth-child(1)")
         self.lessons_button = (By.CSS_SELECTOR, "div.tab-header__item:nth-child(2) > span:nth-child(1) > span:nth-child(1)")
-        self.last_lesson_btn = (By.CSS_SELECTOR, "div.new-lessons_content-cards:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > button:nth-child(1)")
+        self.last_lesson_btn = (By.CSS_SELECTOR, "#app > div > div.container.container_mobile > div > div > div.new-lessons_content > div > div:nth-child(4) > div.flex.gap20 > div:nth-child(7) > div.lesson-card > div > div.lesson-card-left > div.lesson-card-left_actions > button > span > span.material-filled-button__container-text")
         self.star_btn = (By.CSS_SELECTOR, "span.baseicon:nth-child(5)")
         self.real_star_btn = (By.CSS_SELECTOR, "span.baseavatar_star:nth-child(5)")
         self.send_btn = (By.CSS_SELECTOR, "button.material-filled-button:nth-child(4) > span:nth-child(1)")
